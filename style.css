@@ -1,0 +1,53 @@
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+
+section{
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 200px;
+}
+
+img{
+    max-width: 140%;
+    height: 100%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content input{
+    height: 24px;   
+}
+
+.content_salary{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.content_salary input{
+    height: 30px;
+    border: none;
+}
+
+.button input{
+    margin-top: 20px;
+    width: 100%;
+    border-style: none;
+    height: 40px;
+    background-color: blueviolet;
+    text-transform: uppercase;
+    color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.button input:hover{
+    background-color: violet;
+}

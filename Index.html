@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Calculadora Salarial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="card" style="width: 18rem;">
+                <img id="img" src="./img/business-g4d8b01d26_1920.jpg" class="card-img-top" alt="employed">
+            </div>
+
+                <div class="content">
+                    <label for="">Nombre</label>
+                    <input id="nameEmployed"type="text">
+                </div>
+        
+                <div class="content">
+                    <label for="">Valor Hora</label>
+                    <input id="hourValue" type="text">
+                </div>
+        
+                <div class="content">
+                    <label for="">Cantidad Horas</label>
+                    <input id="amountHours" type="text">
+                </div>
+        
+                <div class="content_salary">
+            
+                    <input id="monthlySalary" type="text">Salario Mensual bruto</input>
+                    <input id="netSalary" type="text">Salario Neto</input>
+                    <input id="biweeklySalary" type="text">Salario Quincenal</input>
+                    
+                    <input id="salud" type="text">Deduccion Salud</input>
+                    <input id="pension" type="text">Deduccion Pension</input>
+
+                    <input id="totalPay" type="text">Total a Pagar</input>
+                    
+                </div>
+        
+                <div class="button">
+                    <input id="btnCalculate" type="button" value="Calcular Salario">
+                </div>
+                <script src="./index.js"></script>
+        </section>
+    </main>
+</body>
+</html>
